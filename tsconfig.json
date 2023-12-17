@@ -1,18 +1,19 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "display": "React Library",
   "compilerOptions": {
-    "lib": ["dom", "esnext"],
-    "strict": true,
-    "strictNullChecks": true,
+    "target": "ES6",
+    "module": "ES2020",
+    "jsx": "react",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noImplicitAny": true,
-    "baseUrl": ".",
-    "declaration": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "jsx": "react-jsx",
-    "outDir": "dist"
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "strictFunctionTypes": false,
+    "baseUrl": "."
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist", "**/*.test.*"]
 }

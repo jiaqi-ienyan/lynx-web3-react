@@ -1,5 +1,5 @@
 import React, { memo, FC, useEffect, useState } from 'react'
-import * as invariant from 'tiny-invariant'
+import invariant from 'tiny-invariant'
 import { Web3Provider, ExternalProvider, JsonRpcFetchFunc } from '@ethersproject/providers'
 import { CHAINS } from '@lynx-sdk/constants'
 import { getStaticRpcBatchProvider } from '@lynx-sdk/providers'

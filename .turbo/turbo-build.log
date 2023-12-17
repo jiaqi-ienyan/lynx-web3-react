@@ -1,0 +1,4 @@
+$ rollup -c
+[36m
+[1m./src/index[22m → [1mdist[22m...[39m
+[32mcreated [1mdist[22m in [1m5.8s[22m[39m
